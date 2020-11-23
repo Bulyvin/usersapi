@@ -1,0 +1,8 @@
+version: "3.8"
+services:
+  goservice:
+    build:
+      context: ./
+      dockerfile: goservice.Dockerfile
+  mongodb:
+    image: mongo:3.6.21
